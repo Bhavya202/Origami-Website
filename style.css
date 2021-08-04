@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.origamiPage{
+    background-color: lightcyan;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainPage{
+    background-image: url(Images/Bg/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-image: url(Images/Bg/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -1.5em;
+    background-size: cover;
+}
+
+.origami{
+    padding: 25px 0;
+    margin-top: 25px;
+    background-color: rgb(175, 221, 240);
+    color: deepskyblue;
+    border: 5px solid aquamarine;
+    width: 500px;
+    position: relative;
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border-left: 50px;
+    border-right: 50px;
+    border-width: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-start-start-radius: 150px;
+    border-start-end-radius: 150px;
+}
+
+.origamiP{
+    margin: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn2{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.MyLink1,
+.MyLink2,
+.MyLink3{
+    font-family: 'Poppins', sans-serif;
+    font-variant: small-caps;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.btn1,
+.btn2,
+.btn3{
+    width: 250px;
+    height: 75px;
+    background-color: rgb(245, 97, 126);
+    border: 2px solid aqua;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 0 #ff1cff;
+    transition: ease-out 0.85s;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    box-shadow: inset 250px 0 100px 0 #ff1cff;
+}
+
+.btn2:hover{
+    box-shadow: inset 0 0 100px 75px #ff1cff;    
+}
+
+.btn3:hover{
+    box-shadow: inset -250px 0 100px 0 #ff1cff;
+}
+
+.myName{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: rgb(234, 245, 215);
+    color: rgb(172, 172, 73);
+    border: 5px solid goldenrod;
+    display: flex;
+    max-width: 400px;
+    width: 250px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border-left: 50px;
+    border-right: 50px;
+    border-width: 5px;
+    border-start-start-radius: 150px;
+    border-start-end-radius: 150px;
+}
+
+.hr1{
+    margin-top: 50px;
+}
+
+.hr2, 
+.hr3{
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.animal1, 
+.animal2, 
+.animal3, 
+.animal4, 
+.animal5,
+.animal6,
+.animal7{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    font-size: 2em;
+    font-weight: 600;
+    background-color: orchid;
+    color: white;
+    border: 5px solid deeppink;
+    width: 500px;
+    position: relative;
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border-left: 50px;
+    border-right: 50px;
+    border-width: 5px;
+    border-start-start-radius: 150px;
+    border-start-end-radius: 150px;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7{
+    margin: 0;
+    padding: 0;
+}
+
+.para1,
+.para2,
+.para3,
+.para4,
+.para5,
+.para6,
+.para7{
+    margin: 30px;
+    font-weight: bolder;
+}
+
+#icons{
+    background-color: skyblue;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+    opacity: 1;
+}
+
+.S2{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.S1:hover,
+.S2:hover,
+.S3:hover{
+    opacity: 0.33;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px 100px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    background-image: url(Images/Bg/bg3.jpg);
+    background-position-x: center;
+    background-position-y: 0;
+    background-size: 50px;
+    background-repeat: repeat;
+}
+
+.order,
+.content{
+    width: 100%;
+}
+
+.choose{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid #3f51b5;
+    box-shadow: 0 15px 15px #efefef;
+    appearance: none;
+    background: #e8eaf6 url(Images/Icons/arrow.png) no-repeat;
+    background-position: 95% 55%;
+    background-size: 22px;
+    cursor: pointer;
+}
+
+.content{
+    margin: 25px 0;
+}
+
+.content .data{
+    padding: 25px;
+    background-color: #fff;
+    border: 2px solid #8bc34a;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.content p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    position: relative;
+    color: #000000;
+    border-bottom: 1px solid rgb(179, 170, 170);
+}
+
+.content p :last-child{
+    margin-bottom: 25px;
+    padding-bottom: 0;
+}
+
+.content .Explanation{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+
+.image{
+    display: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    margin: 25px;
+    padding: 25px;
+}
+
+.data{
+    display: none;
+}
+
+.copyRights{
+    background-color: mediumturquoise;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    padding: 25px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    cursor: none;
+    justify-content: center;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+
+.hovered{
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    transition: ease-out 1s;
+    outline: none;
+    opacity: 0;
+}
+
+.hovered:hover{
+    cursor: default;
+    box-shadow: inset 0 0 0 0;
+    opacity: 1;
+}
+
+.hovered:hover img{
+    cursor: none;
+    box-shadow: inset 0 0 0 0;
+    opacity: 0.75;
+}
+
+.link1,
+.link2,
+.link3,
+.link4,
+.link5,
+.link6,
+.link7{
+    text-decoration: none;
+}
+
+.link1:link,
+.link2:link,
+.link3:link,
+.link4:link,
+.link5:link,
+.link6:link,
+.link7:link{
+    color: dodgerblue;
+}
+
+.link1:visited,
+.link2:visited,
+.link3:visited,
+.link4:visited,
+.link5:visited,
+.link6:visited,
+.link7:visited{
+    color: dodgerblue;
+}
